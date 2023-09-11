@@ -1,0 +1,15 @@
+# here we can see that the list have 3 different data types 
+#the first element is an integer , the second one is a string while the third one is a list
+sample_list = [1, "Hi", ['a', 'e']]
+print(type(sample_list))
+print(sample_list)
+
+--------------------------------
+
+# importing "array" for array creations
+import array as arr
+# creating an array with integer type
+a = arr.array('i', [1, 2, 3])
+print(type(a))
+for i in a:
+    print(i, end=" ")
