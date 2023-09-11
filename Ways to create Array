@@ -1,0 +1,17 @@
+#the first way is without Alias 
+import array 
+numbers = arr.array('i',[10,20,30])
+print(len(numbers))
+
+
+#the second way is by using Alias 
+import array as arr 
+numbers = array.array('i',[10,20,30])
+print(numbers)
+
+#the third way is by using *
+from array import *
+array1 = array('i', [10,20,30,40,50])
+for x in array1:
+    print(x)
+      
