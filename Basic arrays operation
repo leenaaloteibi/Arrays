@@ -24,7 +24,7 @@ print("The new array:",arr2)
 #using insert method 
 from array import *
 arr2= array('i',[100,200,300])
-arr2.insert(1,1)
+arr2.insert(1,90)
 print("The new array:",arr2)
 
 #3-removing elements of an array
