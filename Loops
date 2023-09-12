@@ -1,0 +1,14 @@
+# 1- for loop
+mport array as arr
+y=arr.array('i',[15,30,45,60,75,88,99,78,98,66])
+for i in range (4,7,2):
+    print(y[i])
+
+#2- while loop 
+import array as arr 
+a=arr.array('i',[0,5,4,20,90,80,99])
+lengh= len(a)
+n=0
+while n < lengh:
+    print(a[n])
+    n+=1
