@@ -38,7 +38,6 @@ x.pop(2)
 import array as arr
 x = arr.array('i', [10,20,30,40,50,60,70])
 x.remove(40)
-print(x)
 
 #extra example 
 import array
