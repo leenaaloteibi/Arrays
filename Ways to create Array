@@ -6,7 +6,7 @@ print(len(numbers))
 
 #the second way is by using Alias 
 import array as arr 
-numbers = array.array('i',[10,20,30])
+numbers = arr.array('i',[10,20,30])
 print(numbers)
 
 #the third way is by using *
